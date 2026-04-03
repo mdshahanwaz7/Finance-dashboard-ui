@@ -77,7 +77,7 @@ export const Insights = ({ transactions }) => {
         <p>Monthly Summary</p>
         <p className="text-sm mt-1">
           {latestMonth
-            ? `${latestMonth} → Income: ₹${monthly[latestMonth].income} | Expense: ₹${monthly[latestMonth].expense}`
+            ? `${latestMonth} → Income: $${monthly[latestMonth].income} | Expense: $${monthly[latestMonth].expense}`
             : "No data"}
         </p>
       </div>
