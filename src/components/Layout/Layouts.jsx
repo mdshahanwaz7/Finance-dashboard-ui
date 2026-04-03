@@ -65,7 +65,7 @@ Insights</Link>
 
         
         <div className=" md:hidden text-white flex flex-row justify-between ">
-          <button  className="relative left-2 top-2" onClick={() => setOpen(true)}>
+          <button  className="relative left-2 " onClick={() => setOpen(true)}>
             <HiOutlineMenuAlt2 size={28}  />
           </button>
 
@@ -75,7 +75,7 @@ Insights</Link>
         <select 
           value={role}
           onChange={(e) => setRole(e.target.value)}
-          className="w-25 mb-6 bg-white/10 border border-white/20 rounded px-1 py-1 absolute right-2 top-2 text-white  "
+          className="w-25 mb-6 bg-white/10 border border-white/20 rounded px-1 py-1 absolute right-2 top-5 text-white  "
         >
           <option className="text-black" value="viewer">Viewer</option>
           <option className="text-black" value="admin">Admin</option>

@@ -53,27 +53,27 @@ export const Insights = ({ transactions }) => {
 
   return (
     <div className="mt-6 grid gap-4 bg-whie/10 relative  backdrop-blur-xl border border-white/30 rounded-2xl p-5 shadow-xl mt-9 w-full px-2 sm:px-4 md:px-6 ">
-
+  <h2 className="text-white text-center text-xl">Insights</h2>
       
-      <div className="bg-white/10 p-4 rounded-xl text-white">
+      <div className="bg-white/10 p-4 rounded-xl text-white text-center ">
         <p>Total Income</p>
         <h2 className="font-bold">${income}</h2>
       </div>
 
     
-      <div className="bg-white/10 p-4 rounded-xl text-white">
+      <div className="bg-white/10 p-4 rounded-xl text-white text-center">
         <p>Total Expense</p>
         <h2 className="font-bold">${expense}</h2>
       </div>
 
      
-      <div className="bg-white/10 p-4 rounded-xl text-white">
+      <div className=" text-center bg-white/10 p-4 rounded-xl text-white">
         <p>Top Spending Category</p>
         <h2 className="font-bold">{highestCategory}</h2>
       </div>
 
       
-      <div className="bg-white/10 p-4 rounded-xl text-white">
+      <div className=" text-center bg-white/10 p-4 rounded-xl text-white">
         <p>Monthly Summary</p>
         <p className="text-sm mt-1">
           {latestMonth
@@ -83,7 +83,7 @@ export const Insights = ({ transactions }) => {
       </div>
 
      
-      <div className="bg-white/10 p-4 rounded-xl text-white col-span-full">
+      <div className="bg-white/10 p-4 rounded-xl text-white col-span-full text-center">
         <p>Insight</p>
         <p className="text-sm mt-2">
           {expense > income
